@@ -1,0 +1,417 @@
+#previewIssue {
+    width: 1400px;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 32px;
+    margin: auto;
+    /*height: 1400px;*/
+    .btn-container{
+        clear: both;
+        width: 600px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px auto;
+        overflow: hidden;        
+        .return {
+            width: 102px;
+            height: 42px;
+            background-color: #337ab7;
+            margin-top: 20px;
+            border-color: #337ab7;            
+        }
+        .publish{
+            width: 102px;
+            height: 42px;
+            margin-left: 82px;
+            margin-top: 20px;       
+        }
+    }
+    .beforehand {
+        width: 1000px;
+        height: 1055px;
+        margin: auto;
+        margin-top: 19px;
+        background-color: #fff;
+        h1 {
+            float: left;
+            width: 500px;
+            text-align: center;
+            font-size: 24px;
+            color: #3c3c3c;
+            margin-top: 38px;
+            margin-left: 250px;
+        }
+/*        .return {
+            float: right;
+            margin-top: 46px;
+            font-size: 16px;
+            color: #3789d9;
+            margin-right: 13px;
+            cursor: pointer;
+        }*/
+        .screenLeft {
+            position: relative;
+            width: 407px;
+            height: 862px;
+            float: left;
+            margin-left: 72px;
+            margin-top: 56px;
+            background-image: url(/previewlssue/screenLeft.png);
+            .previewLeft {
+                width: 346px;
+                height: 588px;
+                overflow-x: hidden;
+                margin: auto;
+                margin-top: 153px;
+                .productInfo {
+                    width: 346px;
+                    height: 140px;
+                    background-color: #fff;
+                    border-bottom: 1px solid #ddd;
+                    .commImg {
+                        float: left;
+                        width: 106px;
+                        height: 110px;
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        margin-top: 15px;
+                    }
+                    .detail {
+                        float: left;
+                        width: 202px;
+                        height: 140px;
+                        .title {
+                            width: 200px;
+                            text-indent: 15px;
+                            margin-top: 15px;
+                            line-height: 16px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                        }
+                        .domestic {
+                            margin-top: 15px;
+                        }
+                        .foreign {
+                            margin-top: 9px;
+                        }
+                        .add {
+                            float: right;
+                            width: 25px;
+                            height: 25px;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+                .productData {
+                    width: 100%;
+                    background-color: #f2f2f2;
+                    display: none;
+                    .backBtn {
+                        width: 100%;
+                        /*font-size: 16px;*/
+                        background-color: #496b86;
+                        color: #fff;
+                        height: 40px;
+                        line-height: 40px;
+                        padding-left: 10px;
+                        i {
+                            font-size: 30px;
+                            line-height: 40px;
+                        }
+                        .backText {
+                            font-size: 16px;
+                            position: relative;
+                            bottom: 4px;
+                            left: 5px;
+                        }
+                        .titleText {
+                            font-size: 16px;
+                            position: relative;
+                            bottom: 4px;
+                            left: 30%;
+                        }
+                    }
+                    .merchandise {
+                        width: 100%;
+                        background-color: #fff;
+                        margin-top: 2px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .operate-container{
+                        background-color: #fff;
+                    }
+                    .operate {
+                        width: 278px;
+                        background-color: #fff;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        display: inline-block;
+                        .title {
+                            font-size: 22px;
+                            margin-left: 18px;
+                            word-wrap: break-word;
+                            overflow: hidden;
+                            height: 39px;
+                            line-height: 20px;
+                            margin-bottom: 8px;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                        }
+                        .price {
+                            font-size: 18px;
+                            margin-left: 18px;
+                            margin-bottom: 8px;
+                        }
+                        .domestic {
+                            color: #606060;
+                            font-size: 16px;
+                            margin-left: 18px;
+                        }
+                    }
+                    .join{
+                        float: right;
+                        margin-top: 85px;
+                        margin-right: 10px;
+                        .addTo{
+                            background-image: url(/previewlssue/add.png);
+                            background-size: 25px 25px;
+                            width: 25px;
+                            height: 25px;
+                            float: right; 
+                        }
+                    }
+                    .transport {
+                        width: 346px;
+                        height: 114px;
+                        font-size: 16px;
+                        line-height: 57px;
+                        background-color: #fff;
+                        margin-top: 13px;
+                        .postage {
+                            width: 346px;
+                            height: 57px;
+                            border-bottom: 1px solid #e0e0e0;
+                            .shipping {
+                                color: #797979;
+                                margin-left: 28px;
+                                float: left;
+                                width: 110px;
+                            }
+                            .condition {
+                                color: #363636;
+                            }
+                        }
+                        .customs {
+                            width: 346px;
+                            height: 57px;
+                            .dues {
+                                color: #797979;
+                                margin-left: 28px;
+                                float: left;
+                                width: 110px;
+                            }
+                            .subsidy {
+                                color: #363636;
+                            }
+                        }
+                    }
+                    .productDesc {
+                        overflow: hidden;
+                        font-size: 18px;
+                        background-color: #fff;
+                        margin-top: 20px;
+                        line-height: 24px;
+                        .title {
+                            width: 346px;
+                            height: 40px;
+                            background-color: #04be02;
+                            color: #fff;
+                            font-size: 20px;
+                            line-height: 40px;
+                            text-indent: 25px;
+                        }
+                        .proExplan {
+                            background-color: #fff;
+                            padding-top: 15px;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            padding-bottom: 15px;
+                            border-top: 3px solid #f2f2f2;
+                        }
+                    }
+                    .outputInfo {
+                        overflow: hidden;
+                        font-size: 18px;
+                        background-color: #fff;
+                        margin-top: 20px;
+                        line-height: 24px;
+                        margin-bottom: 60px;
+                        .goodsInfo {
+                            width: 346px;
+                            height: 40px;
+                            background-color: #04be02;
+                            color: #fff;
+                            font-size: 20px;
+                            line-height: 40px;
+                            text-indent: 25px;
+                        }
+                        .parameter {
+                            background-color: #fff;
+                            padding-top: 15px;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            padding-bottom: 15px;
+                            border-top: 3px solid #f2f2f2;
+                            .prodPara {
+                                margin-top: 17px;
+                                .prodEx {
+                                    color: #5c5c5c;
+                                }
+                            }
+                        }
+                    }
+                    .manipulate {
+                        position: absolute;
+                        bottom: 121px;
+                        left: 31px;
+                        width: 330px;
+                        height: 60px;
+                        line-height: 60px;
+                        .share {
+                            float: left;
+                            width: 165px;
+                            height: 60px;
+                            border: 1px solid #cdcdcd;
+                            font-size: 18px;
+                            color: #cdcdcd;
+                            background-color: #fff;
+                            cursor: pointer;
+                            i {
+                                float: left;
+                                width: 23px;
+                                height: 20px;
+                                background-image: url(/previewlssue/share.png);
+                                background-size: 23px 20px;
+                                display: inline-block;
+                                margin-left: 35px;
+                                float: left;
+                                margin-top: 19px;
+                                margin-right: 10px;
+                            }
+                        }
+                        .addTo {
+                            float: left;
+                            width: 165px;
+                            height: 60px;
+                            font-size: 21px;
+                            color: #fff;
+                            background-color: #04be02;
+                            text-align: center;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        .screenRight {
+            width: 407px;
+            height: 862px;
+            float: left;
+            margin-left: 42px;
+            margin-top: 56px;
+            background-image: url(/previewlssue/screenRight.png);
+            .previewRight {
+                width: 346px;
+                height: 541px;
+                overflow-x: hidden;
+                margin: auto;
+                margin-top: 198px;
+                .friendCir {
+                    width: 346px;
+                    min-height: 200px;
+                    overflow: hidden;
+                    background-color: #fff;
+                    .publisher {
+                        overflow: hidden;
+                        .portrait {
+                            width: 47px;
+                            height: 47px;
+                            float: left;
+                            margin-top: 16px;
+                            margin-left: 9px;
+                            border-radius: 100px;                            
+                        }
+                        .caption {
+                            width: 280px;
+                            float: left;
+                            margin-top: 21px;
+                            .name {
+                                margin-left: 11px;
+                                color: #5d7099;
+                            }
+                            .illustrate {
+                                height: 63px;
+                                text-indent: 10px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 3;
+                                -webkit-box-orient: vertical;
+                                line-height: 20px;                                
+                                margin-left: 11px;
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                    .release {
+                        overflow: hidden;
+                        margin-left: 50px;
+                        .freight {
+                            width: 260px;
+                            min-height: 88px;
+                            margin: auto;
+                            margin-top: 6px;
+                            overflow: hidden;
+                            .goods {
+                                float: left;
+                                width: 82px;
+                                height: 82px;
+                                margin-left: 4px;
+                                margin-top: 4px;
+                                border: 1px solid rgba(128, 128, 128, 0.25);
+                                img {
+                                    width: 80px;
+                                    height: 80px;
+                                }
+                            }
+                        }
+                        .foretime {
+                            width: 275px;
+                            overflow: hidden;
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            .past {
+                                float: left;
+                                margin-left: 25px;
+                                font-size: 13px;
+                                color: #a0a0a0;
+                            }
+                            .more {
+                                float: right;
+                                /*margin-right: 10px;*/
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

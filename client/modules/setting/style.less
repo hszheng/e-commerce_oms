@@ -1,0 +1,403 @@
+#setting {
+	min-width: 1400px;
+	background-color: #f2f2f2;
+    overflow: hidden;
+    textarea, input{
+        text-indent: 10px;
+        outline: 0;
+    }
+	.store {
+	    width: 1000px;
+	    background-color: #fff;
+	    margin: 20px auto;
+	    margin-bottom: 42px;
+    	color: #3c3c3c;
+        padding-top: 21px;
+        .store-detail{
+            margin-left: 30px;
+            overflow: hidden;
+            width: 500px;
+            .ant-input-group {
+              margin: 0 8px 8px 0;
+            }            
+        }
+        .ant-collapse {
+            width: 94%;
+            margin: 0 auto;
+        }
+        .storeName {
+            input {
+            	width: 300px;
+            	height: 30px;
+            	border: 1px solid rgba(137, 137, 137, 0.38);
+            	border-radius: 5px;
+            }
+        }
+        .actualName {
+        	margin-top: 20px;
+    		input {
+            	width: 300px;
+            	height: 30px;
+            	border: 1px solid #898989;
+            	border-radius: 5px;
+            }
+        }
+        .wechat {
+        	margin-top: 20px;
+        	margin-left: 50px;
+        	input {
+            	width: 300px;
+            	height: 30px;
+            	border: 1px solid #898989;
+            	border-radius: 5px;
+            }
+        }
+        .phone {
+        	margin-top: 20px;
+        	margin-left: 50px;
+            .selectZip{
+                border: 1px solid rgba(128, 128, 128, 0.51);
+                height: 28px;
+            }            
+        	input {
+            	width: 300px;
+            	height: 30px;
+            	border: 1px solid #898989;
+            	border-radius: 5px;
+            	margin-right: 15px;
+                margin-left: 20px;
+            }
+        }
+        .grade {
+        	margin-top: 28px;
+
+        }
+        .join {
+        	margin-top: 36px;
+        }
+        .frontCov {
+        	margin-top: 29px;
+        	overflow: hidden;
+        	.overseeLabel, .flgShops {
+        		float: left;
+        	    line-height: 90px;
+                padding: 0px 7px;
+                color: #666666;
+                border-radius: 6px 0 0 6px;                
+        	}
+            .overseeLabel {
+                width: 100px;
+                text-align: center;
+                font-size: 12px;                
+            } 
+            .qrCodeImg,           
+        	.addimg {
+        		float: left;
+        		height: 92px;
+                max-width: 300px;
+        	}
+            .addimgBorder {
+                border: 1px solid #d9d9d9;
+            }
+            .imgContainer{
+                width: 90px;
+                height: 90px;
+                position: relative;
+                float: left;
+                img{
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    width: 92px;
+                    height: 92px;
+                }
+                input{
+                    opacity: 0;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    width: 90px;
+                    height: 90px;
+                }
+            }            
+        	.prompt {
+        		float: left;
+        	    margin-left: 20px;
+    			margin-top: 35px;
+                font-size: 12px;
+                color: #808080;
+                opacity: .9;
+        	}
+        	.upload {
+			    opacity: 0;
+			    width: 90px;
+			    height: 90px;
+			    float: left;
+			    margin-left: -90px;
+			    cursor: pointer;
+        	}
+        }
+/*        .introduction {
+        	margin-top: 20px;
+        	overflow: hidden;
+        	.introduce {
+        		float: left;
+                margin-top: 10px;
+        	}
+        	textarea {
+        		float: left;
+        		width: 820px;
+        		height: 170px;
+        		resize:none;
+        	    padding-top: 10px;
+			    padding-right: 10px;
+			    line-height: 16px;
+                border: 1px solid rgba(137, 137, 137, 0.38);
+        	}
+        }*/
+        .cancel,
+        .save {
+        	width: 102px;
+        	height: 42px;
+        	text-align: center;
+        	display: inline-block;
+        	border-radius: 5px;
+        	color: #fff;
+        	margin-top: 30px;
+            margin-bottom: 30px;
+        	cursor: pointer;
+        }
+        .save {
+            background-color: #04be02;
+        }
+        .cancel {
+        	background-color: #ff7418;
+        	margin-left: 41px;
+        	margin-top: 30px;
+            margin-bottom: 30px;
+        	cursor: pointer;
+        }
+/*        .contactText{
+            margin: 20px 0px 20px 0px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 15px;
+            label{
+                font-size: 18px;
+                margin-left: 10px;
+            }
+            .rightOperation{
+                float: right;
+                margin-top: -9px;
+                margin-right: 10px;
+                cursor: pointer;
+                line-height: 35px;
+                span{
+                    margin-right: 10px;
+                }
+                .operation{
+                    width: 30px;
+                    height: 30px;
+                    border: 3px solid #61c220;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 21px;
+                    color: #61c220;
+                    float: right;
+                }
+            }
+        }*/
+/*        .contactContainer{
+            display: none;
+            padding-left: 30px;
+            input[type="text"]{
+                height: 35px;
+                border-radius: 5px;
+                border: 1px solid #898989;
+            }
+            .contactWay{
+                .basic-item{
+                    margin-top: 20px;
+                    label{
+                        display: inline-block;
+                        width: 75px;
+                        margin-right: 10px;
+                        text-align: right;
+                    }
+                    select{
+                        width: 150px;
+                        height: 35px;
+                    }
+                    .phone{
+                        margin-left: 40px;
+                    }
+                }
+            }
+            .basicInfo{
+                .name{
+                    .nameLabel{
+                        width: 130px;
+                        margin-right: 10px;
+                        text-align: right;
+                    }
+                }
+                .basic-item{
+                    margin-top: 20px;
+                    label{
+                        display: inline-block;
+                        width: 75px;
+                        margin-right: 10px;
+                        text-align: right;
+                    }
+                    select{
+                        width: 150px;
+                        height: 45px;
+                        margin-left: 40px;
+                    }
+                    .firstAddress{
+                        width: 420px;
+                    }
+                    .secondAddress{
+                        width: 420px;
+                        margin-left: 140px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+        .overseaText{
+            margin: 20px 0px 20px 0px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 15px;
+            label{
+                font-size: 18px;
+                margin-left: 10px;
+            }
+            .rightOperation{
+                float: right;
+                margin-top: -9px;
+                margin-right: 10px;
+                cursor: pointer;
+                line-height: 35px;
+                span{
+                    margin-right: 10px;
+                }
+                .operation{
+                    width: 30px;
+                    height: 30px;
+                    border: 3px solid #61c220;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 21px;
+                    color: #61c220;
+                    float: right;
+                }
+            }
+        }
+        .overseaContainer{
+            display: none;
+            padding-left: 30px;
+            input[type="text"],
+            input[type="date"]{
+                height: 35px;
+                border-radius: 5px;
+                border: 1px solid #898989;
+            }
+            .verifyInfo{
+                overflow: hidden;
+                .verifyIdentify{
+                    overflow: hidden;
+                    margin-top: 20px;
+                    label{
+                        width: 70px;
+                        margin-right: 10px;
+                        text-align: right;
+                        float: left;
+                    }
+                    .imgContainer{
+                        width: 90px;
+                        height: 90px;
+                        position: relative;
+                        float: left;
+                        img{
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            width: 90px;
+                            height: 90px;
+                        }
+                        input{
+                            opacity: 0;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            width: 90px;
+                            height: 90px;
+                        }
+                    }
+                }
+                .overseaIdentify{
+                    clear: both;
+                    margin-top: 20px;
+                    label{
+                        width: 130px;
+                        margin-right: 10px;
+                        text-align: right;
+                    }
+
+                }
+            }
+            .validityTime{
+                margin-top: 20px;
+                label{
+                    width: 130px;
+                    margin-right: 10px;
+                    text-align: right;
+                    float: left;
+                }
+                span{
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            }
+            .overseaLived{
+                margin-top: 20px;
+                width: 550px;
+                label{
+                    width: 130px;
+                    margin-right: 10px;
+                    text-align: right;
+                }
+                .identifyOverse{
+                    float: left;
+                }
+                .imgContainer{
+                        width: 90px;
+                        height: 90px;
+                        position: relative;
+                        margin-top: 10px;
+                        img{
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            width: 90px;
+                            height: 90px;
+                            margin-left: 80px;
+                        }
+                        input{
+                            opacity: 0;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            width: 90px;
+                            height: 90px;
+                        }
+                    }
+            }
+            .tip{
+                padding-left: 35px;
+                padding-top: 10px;
+            }
+        }*/
+	}
+
+}

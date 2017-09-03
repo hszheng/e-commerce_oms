@@ -1,0 +1,200 @@
+#dailyIssue{
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.product-container{
+	width: 1000px;
+	margin: auto;
+	.categoryList{
+		margin-top: 20px;
+		width: 166px;
+		height: 550px;
+		float: left;
+		.product-category{
+			width: 166px;
+			height: 488px;
+			background-color: white;
+			border-radius: 5px 5px 0 0;
+			border:1px solid #04be02;
+			.item{
+				width: 100%;
+				height: 38px;
+				padding-left: 20px;
+				line-height: 38px;
+				cursor: pointer;
+			}
+			.second-item{
+				padding-left: 45px;
+			    height: 30px;
+			    line-height: 30px;
+			    display: none;
+			    cursor: pointer;
+			}
+			.active{
+				background-color:#04be02;
+				color:#fff; 
+			}
+			.product{
+				width: 275px;
+			}
+		}
+		.qrcodeContainer{
+			text-align: center;
+    		height: 160px;
+    		canvas{
+			    margin-top: 15px;
+    		}
+		}
+	}
+	.product-detail{
+	    width: 824px;
+	    min-height: 688px;
+	    display: inline-block;
+	    vertical-align: bottom;
+	    margin-left: 10px;
+	    margin-top: 20px;
+	    overflow: hidden;
+	    .row-item {
+	    	width: 100%;
+	    	height: 50px;
+	    	overflow: hidden;
+	    	.greyButton {
+	    		width: 80px;
+			    height: 35px;
+			    color: black;
+			    background-color: #ccc;
+			    border-radius: 5px;
+			    outline: 0px;
+			    border: 0px;
+			    text-align: center;
+			    margin-right: 20px;
+	    	}
+	    	.greyButton.active{
+	    		background-color: #04be02;
+	    		color: white;
+	    	}
+	    	.new-content {
+			    width: 155px;
+			    height: 38px;
+			    background-color: #04be02;
+			    color: white;
+			    line-height: 38px;
+			    text-align: center;
+			    border-radius: 5px;	
+			    cursor: pointer;
+			    float: right;
+			    margin-right: 10px;	
+			}
+			.searchbox{
+			    width: 282px;
+			    height: 38px;
+			    background-image: url('/search.png');
+			    background-repeat: no-repeat;
+			    background-position: 5px;
+			    outline: 0;
+			    background-color: #f2f2f2;
+			    border: 1px solid #b4b4b4;
+			    border-radius: 5px;
+			    padding-left: 40px;
+			    float: left;
+			}
+			.search-btn{
+			    width: 66px;
+			    height: 38px;
+			    color: white;
+			    background-color: #04be02;
+			    border-radius: 5px;
+			    line-height: 38px;
+			    text-align: center;
+			    margin-left: 20px;
+			    vertical-align: -1px;
+			    cursor: pointer;
+			    float: left;
+			}
+			.multi-btn {
+				float: right;
+				width: 96px;
+				height: 38px;
+				color: #fff;
+				background-color: #04be02;
+				text-align: center;
+				border-radius: 5px;
+				cursor: pointer;
+				outline: 0;
+				line-height: 32px;
+				border: 0;
+				margin-right: 10px;
+			}
+	    }
+	
+		.table{
+			background-color: #ffffff;
+			float: left;
+			width: 100%;
+			.ant-table th, .ant-table td {
+				text-align: center;
+			}
+			/*新样式 */
+			.ant-table th, .ant-table td {
+				text-align: center;
+			}			
+			.commodity {
+				width: 212px;
+	    		.imgContainer{
+	    			position: relative;
+	    			width: 82px;
+				    height: 82px;
+	    			float: left;
+	    			border: 1px solid rgba(218, 213, 213, 0.5);
+	    			.buyTag {
+						width: 44px;
+						position: absolute;
+						left: 0;	    				
+						/*transform: rotate(-45deg);
+						width: 0;
+						height: 0;
+						border-width: 30px 30px 30px;
+						border-style: solid;
+						border-color: transparent transparent red;
+						margin-left: -30px;*/
+	    			}
+	    			img {
+				    	max-width: 80px;
+						max-height: 80px;
+				    }
+	    		}
+    			.proName {
+				    float: left;
+				    width: 130px;
+				    height: 82px;
+				    text-align: left;
+				    text-indent: 10px;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    display: -webkit-box;
+				    -webkit-line-clamp: 5;
+				    -webkit-box-orient: vertical;
+				    line-height: 16px;
+				    word-break: break-all;
+				    word-wrap: break-word;
+				    white-space: initial;				    
+    			}
+    			.proName:hover {
+    				color: #2db7f5;
+    			}	    		
+
+			}
+			.noGoodsTip{
+				width: 100%;
+			    height: 370px;
+			    text-align: center;
+			    padding-top: 120px;
+			    font-size: 20px;
+			}
+		}
+	}
+}
+
+.ant-modal.productModal{
+	width: 1030px !important;
+}

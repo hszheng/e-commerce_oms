@@ -1,0 +1,415 @@
+.btn-container{
+	    text-align: center;
+	.save{
+		display: inline-block;
+		margin-left: 0 !important
+	}
+	.cancel{
+	    display: inline-block;
+	    margin-left: 20px !important;		
+	}
+
+}
+
+#productDetail {
+    .largeImg{
+    	display: none;
+    }
+    input, button{
+    	outline: 0;
+    }
+    input {
+    	text-indent: 5px;
+    }
+	.descTitle{
+	    display: inline-block;
+	    width: 120px;
+	    text-align: right;		    		
+	}    
+	.productInfo {
+		width: 1000px;
+		margin: 0 auto;
+	    font-size: 14px;
+	    .commodityInfo {
+	        padding-top: 14px;
+    		overflow: hidden;
+	    	background-color: #fff;
+	    	.category {
+				width: 330px;
+				height: 42px;
+				border-radius: 5px;
+				border: 1px solid #ccc;
+			    font-size: 14px;
+			    color: #555;
+	    	}
+	    	.subCategory{
+	    		width: 330px;
+				height: 42px;
+				border-radius: 5px;
+				border: 1px solid #ccc;
+			    font-size: 14px;
+			    color: #555;
+	    	}
+	    	.rows{
+	    		margin-top: 14px;
+		        overflow: hidden;
+		        b {
+				    width: 120px;
+				    display: inline-block;
+					text-align: right;
+					padding-right: 10px;
+		        }
+		        .itemOnLeft{
+		        	float: left;
+    				margin-left: 13px;
+		        	input{
+			        	width: 330px;
+						height: 42px;
+						border-radius: 5px;
+						border: 1px solid #ccc;
+					    font-size: 14px;
+					    color: #555;
+					}
+		        }
+		        .itemOnRight{
+		        	float: left;
+    				margin-left: 52px;
+    				input{
+			        	width: 330px;
+						height: 42px;
+						border-radius: 5px;
+						border: 1px solid #ccc;
+					    font-size: 14px;
+					    color: #555;
+					}
+		        }
+				.marginLeft{
+					margin-left: 275px;
+				}
+	    	}
+		    .synopsis {
+		    	margin-top: 15px;
+			    overflow: hidden;
+		    	.summary {
+					float: left;
+					margin-left: 10px;
+		    	}
+		    	textarea {
+				    float: left;
+				    border: 1px solid #ccc;
+				    border-radius: 5px;
+				    height: 100px;
+				    width: 835px;
+				    padding: 6px 12px;
+				    resize: none;
+		    	}
+		    }
+	    }
+	    .parameters {
+	    	overflow: hidden;
+	    	/*min-height: 270px;*/
+	    	background-color: #fff;
+	    	margin-top: 23px;
+	    	padding-bottom: 20px;
+	    	.commInfo {
+	    		overflow: hidden;
+			    margin-top: 21px;
+	    		.parametric {
+		    		float: left;
+		    	    margin-left: 12px;
+		    		margin-top: 16px;
+		    		font-size: 14px;
+		    		color: #3c3c3c;
+		    	}
+	    		.addData {
+		    		float: right;
+		    		margin-right: 12px;
+		    		width: 134px;
+		    		height: 40px;
+		    		background-color: #50c747;
+		    		color: #fff;
+		    		text-align: center;
+		    		line-height: 40px;
+		    		cursor: pointer;
+		    	}
+	    	}
+			.dataFull {
+				float: left;
+				margin-top: 15px;
+				margin-left: 15px;
+				b {
+		    		float: left;
+		    	    width: 100px;
+		    		margin-top: 13px;
+		    	}
+				input {
+					width: 382px;
+    				height: 42px;
+					border-radius: 5px;
+					border: 1px solid #ccc;
+				}
+			}			
+	    }
+	    .describe {
+	    	background-color: #fff;
+	    	overflow: hidden;
+	    	margin-top: 15px;
+	    	min-height: 310px;
+	    	.depict {
+	    		display: inline-block;
+	    		margin-top: 34px;
+			    margin-left: 12px;
+	    	}
+    		.upload {
+				float: left;
+				width: 77px;
+				margin-top: 10px;
+				/*margin-left: 15px;*/
+    		}	    	
+	    	.figDeta {
+	    		overflow: hidden;
+	    		margin-left: 15px;
+	    	    width: 780px;
+    			margin: auto;
+	    		.bewrite {
+	    			float: left;
+		    		width: 95px;
+		    		/*height: 175px;*/
+		    		margin-left: 15px;
+		    		.picture {
+		    			position: relative;
+		    		    width: 95px;
+					    height: 108px;
+					    border: 1px solid #b3b3b3;
+					    .commImg {
+					    	position: absolute;
+					        height: 106px;		
+    						width: 93px;	
+					    }
+					    .deleteDescImage{
+					    	/*display: none;*/
+						    position: absolute;
+						    right: 4px;
+						    top: 2px;
+						    font-size: 16px;
+						    font-weight: bolder;
+						    cursor: pointer;
+						    background-color: red;
+						    height: 20px;
+						    width: 20px;
+						    text-align: center;
+						    line-height: 20px;
+						    border-radius: 100px;
+						    color: white;					    	
+					    }
+					    .main {
+					    	position: absolute;
+					        /*right: 0px;*/
+    						/*top: 0px;*/
+    						display: none;
+					    }
+					    .active {
+					    	display: block;
+					    }
+		    		}
+		    		.instal {
+		    			width: 72px;
+					    height: 22px;
+					    background-color: #ededed;
+					    text-align: center;
+					    line-height: 22px;
+					    border: 1px solid #b3b3b3;
+					    margin-top: 4px;
+					    font-size: 12px;
+					    margin-left: 10px;
+					    cursor: pointer;
+		    		}
+		    	}
+	    	}
+	    	.cancel,
+	    	.save {
+			    width: 90px;
+			    height: 40px;
+			    background-color: #56be10;
+			    color: white;
+			    border: 0px;
+		    	text-align: center;
+		    	line-height: 40px;
+		    	margin-left: 142px;
+		    	margin-top: 15px;
+		    	cursor: pointer;
+		    	/*margin-bottom: 20px;*/
+		    }
+	    }
+	}
+}
+
+.addMaterial {
+    .common {
+        margin-left: 13px;
+	    display: inline-block;
+    }
+    .close {
+    	float: right;
+    	margin-right: 10px;
+    }
+    .community {
+    	width: 944px;
+    	height: 127px;
+    	margin: auto;
+    	.parameter {
+    		float: left;
+    		margin-left: 16px;
+    		margin-top: 16px;
+    		width: 102px;
+    		height: 40px;
+    		border-radius: 5px;
+    		border: 1px solid #b0c0af;
+    		text-align: center;
+    		line-height: 40px;
+    		cursor: pointer;
+    	}
+    	.active {
+    		background-color: #50c747;
+    		color: #fff;
+    	}
+    	.have {
+			background-color: #E43333;
+			color: #fff;
+		    cursor: not-allowed;
+		}
+    }
+    .cosmetic {
+		margin-left: 13px;
+    }
+    .toiletries {
+    	width: 944px;
+    	overflow: hidden;
+    	margin: auto;
+		.parameter {
+    		float: left;
+    		margin-left: 16px;
+    		margin-top: 16px;
+    		width: 102px;
+    		height: 40px;
+    		border-radius: 5px;
+    		border: 1px solid #b0c0af;
+    		text-align: center;
+    		line-height: 40px;
+    		cursor: pointer;
+    	}
+    	.active {
+    		background-color: #50c747;
+    		color: #fff;
+    	}
+    	.have {
+			background-color: #E43333;
+			color: #fff;
+		    cursor: not-allowed;
+		}
+    }
+    .foodstuff {
+		margin-left: 13px;
+		margin-top: 16px;
+    }
+    .eatables {
+    	width: 944px;
+    	overflow: hidden;
+    	margin: auto;
+		.parameter {
+    		float: left;
+    		margin-left: 16px;
+    		margin-top: 16px;
+    		width: 102px;
+    		height: 40px;
+    		border-radius: 5px;
+    		border: 1px solid #b0c0af;
+    		text-align: center;
+    		line-height: 40px;
+    		cursor: pointer;
+    	}
+    	.active {
+    		background-color: #50c747;
+    		color: #fff;
+    	}
+    	.have {
+			background-color: #E43333;
+			color: #fff;
+		    cursor: not-allowed;
+		}
+	}
+	.electron {
+	    margin-left: 13px;
+	    margin-top: 16px;
+	}
+	.model {
+		width: 944px;
+    	overflow: hidden;
+    	margin: auto;
+    	.parameter {
+    		float: left;
+    		margin-left: 16px;
+    		margin-top: 16px;
+    		width: 102px;
+    		height: 40px;
+    		border-radius: 5px;
+    		border: 1px solid #b0c0af;
+    		text-align: center;
+    		line-height: 40px;
+    		cursor: pointer;
+    	}
+    	.active {
+    		background-color: #50c747;
+    		color: #fff;
+    	}
+    	.have {
+			background-color: #E43333;
+			color: #fff;
+		    cursor: not-allowed;
+		}
+	}
+	.apparel {
+		margin-left: 13px;
+		margin-top: 16px;
+	}
+	.raiment {
+		width: 944px;
+    	overflow: hidden;
+    	margin: auto;
+    	.parameter {
+    		float: left;
+    		margin-left: 16px;
+    		margin-top: 16px;
+    		width: 102px;
+    		height: 40px;
+    		border-radius: 5px;
+    		border: 1px solid #b0c0af;
+    		text-align: center;
+    		line-height: 40px;
+    		cursor: pointer;
+    	}
+    	.active {
+    		background-color: #50c747;
+    		color: #fff;
+    	}
+    	.have {
+			background-color: #E43333;
+			color: #fff;
+		    cursor: not-allowed;
+		}
+	}
+	.defineAdd {
+		width: 90px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+		background-color: #50c747;
+		margin: auto;
+		margin-top: 32px;
+		cursor: pointer;
+	}
+}
+.imgModal.ant-modal{
+		width: 1000px !important;
+	}
